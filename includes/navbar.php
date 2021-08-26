@@ -17,19 +17,28 @@
   a{
 
     /* background-color:blue; */
-    font-family:'Times New Roman', Times, serif;
-    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:31px;
     
   }
 
   #logo{
 
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
   #header{
 
     background-color: #F6F1F4;
+  }
+
+  .dropdown-item a:hover{
+
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color: #FFF0F5;
+    transform: scale(1.2);
+    font-family: "Lucida Console", Courier, monospace;
   }
 
 </style>
@@ -43,8 +52,8 @@
     <div class="container d-flex align-items-center justify-content-between">
 
     
-      <h1 class="logo"><a class="nav-link scrollto" href="index.php"><img id="logo" src="assets/img/flood2 logo.JFIF" 
-      alt="flood" width="17%"> SMART FLOOD </marquee> <span></span></a></h1>
+      <h1 class="logo"><a class="nav-link scrollto" href="index.php"><img id="logo" src="assets/img/flood3.PNG" 
+      alt="flood" width="17%" class="rounded-cirle"> SMART FLOOD </marquee> <span></span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 

@@ -93,6 +93,12 @@ a:hover i{
   transform: scale(1.4);
 }
 
+.img-fluid{
+
+  border:3px solid gray;
+  border-radius:5px;
+}
+
 </style>
 
 
@@ -149,7 +155,7 @@ a:hover i{
 
         <div class="section-title">
           <h3>Flood <span>Destrcutions</span></h3>
-          <p>Some glipmse of the destructions caused by flood!</p>
+          <p style="font-family: monospace;">Some glipmse of the destructions caused by flood!</p>
          
         </div>
 
@@ -158,47 +164,47 @@ a:hover i{
         <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1267.11px;">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-            <img src="images/11.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/11.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 0px;">
-            <img src="images/12.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/12.jpg" class="img-fluid" alt="">
            
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 880px; top: 0px;">
-            <img src="images/7.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/7.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 264px;">
-            <img src="images/6.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/6.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 308.922px;">
-            <img src="images/5.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/5.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 451.703px;">
-            <img src="images/4.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/4.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 569.078px;">
-            <img src="images/3.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/3.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 880px; top: 869.109px;">
-            <img src="images/10.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/10.jpg" class="img-fluid" alt="">
             
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 960.766px;">
-            <img src="images/1.jpg" class="img-fluid" alt="" style="border:3px solid gray; border-radius:5px;">
+            <img src="images/1.jpg" class="img-fluid" alt="">
             
           </div>
 
