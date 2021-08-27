@@ -39,6 +39,7 @@
   #footer{
 
      background-color:#F6F1F4;
+     font-family: Times, Times New Roman, serif;
   }
 
   .copyright{
@@ -55,7 +56,7 @@
    text-align: justify;
    padding-left: 8%; 
    padding-right: 8%;
-   font-family: Times, Times New Roman, serif;
+   font-family: 'Times New Roman', Times, serif;
    font-size: 18px;
 }
 
@@ -95,8 +96,30 @@ a:hover i{
 
 .img-fluid{
 
-  border:3px solid gray;
-  border-radius:5px;
+  border: 3px solid gray;
+  border-radius: 5px;
+  /* max-width: 100%;
+  height: auto; */
+  /* object-fit: cover: */
+
+}
+
+#ncai_link{
+
+  text-decoration: none;
+  color: #4267B2;
+}
+
+#ncai_link h3:hover{
+
+  color: #0072b1;
+  border: 2px solid #E6E8FA;
+  border-radius: 10px;
+}
+
+h4, h3{
+
+  font-family: Times, Times New Roman, serif;
 }
 
 </style>
@@ -164,17 +187,17 @@ a:hover i{
         <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1267.11px;">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-            <img src="images/11.jpg" class="img-fluid" alt="">
+            <img src="images/11.jpg" style="width: 85%;" class="img-fluid" alt="">
             
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 0px;">
-            <img src="images/12.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 440px; top: 0px; padding-right: 50px;">
+            <img src="images/12.jpg" style="width: 100%;" class="img-fluid" alt="">
            
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 880px; top: 0px;">
-            <img src="images/7.jpg" class="img-fluid" alt="">
+            <img src="images/7.jpg" style="height: 50%;" class="img-fluid" alt="">
             
           </div>
 
@@ -320,7 +343,7 @@ a:hover i{
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h3><span>Goals & Objectives</span></h3>
+          <h3>Goals & <span> Objectives</span></h3>
         </div>
          
 
@@ -368,8 +391,9 @@ a:hover i{
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3 style="font-family: Times, Times New Roman, serif;">National Center of AI<span>.</span><br>
-            UET Peshawar</h3>
+           <a href="http://ncai.cisnr.com/" target="blank" id="ncai_link"> 
+           <h3 style="font-family: Times, Times New Roman, serif;">National Center of AI<span>.</span><br>
+            UET Peshawar</h3> </a>
             <p>
               
              
